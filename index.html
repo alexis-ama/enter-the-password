@@ -5,13 +5,27 @@
     <title>Enter the Password</title>
     <style>
         #attempt {
-            text-align: center;
-            place-items: center
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%)translateY(-50%);
         }
 
         #success {
             display: none;
             text-align: center;
+        }
+
+        .container {
+            display: flex;
+            border: 2px solid black;
+        }
+
+        .tech_roles_box {
+            flex: 1;
+            margin: 15px;
+            padding: 40px;
+            border: 2px solid #ccc;
         }
 
         .error {
@@ -34,11 +48,30 @@
     </div>
 
     <div id="success">
+        <header>
+            <img src="USDA_logo.png" alt="USDA logo" />
+        </header>
         <h2>Congratulations!</h2>
         <h3>Welcome to USDA Tech</h3>
-        <button onclick="homepage()">Back to Home</button>
 
-        <h3>Keep in touch with USDA:</h3>
+        <h3>Mission:</h3>
+        <p>
+            USDA strives to support the agriculture of the United States, its natural resources and environment, and the nutritional welfare of its people.
+        </p>
+        
+       <div class="container">
+            <div class="tech_roles_box"><a href="https://www.usajobs.gov/job/871950400">1. Program Analyst (Early Career - Strategy & Operations)</a></div>
+            <div class="tech_roles_box"><a href="https://www.usajobs.gov/job/871950200">2. IT Specialist (Early Career - Information Technology)</a></div>
+            <!-- <div class="box">Box 3</div> -->
+        <!-- <h3>Open Tech Roles:</h3>
+        <p><a href="https://www.usajobs.gov/job/871950400">1. Program Analyst (Early Career - Strategy & Operations)</a></p>
+        <p><a href="https://www.usajobs.gov/job/871950200">2. IT Specialist (Early Career - Information Technology)</a></p>
+        <h5>USDA is recruiting talent like YOU for our tech roles. Apply now!</h5> -->
+
+       </div>
+       <h5>USDA is recruiting talent like YOU for our tech roles. Apply now!</h5>
+        <h3>Stay connected with USDA:</h3>
+
         <form id="contact" method="POST" netlify> <!-- Netlify form -->
             <p>
                 <label>Your Name: </label>
@@ -52,6 +85,11 @@
             <button type="submit">Send</button>
         </form>
 
+        <br></br>
+
+        <block>
+            <button onclick="homepage()">Back to Home</button>
+        </block>
     </div>
 
     <script>
