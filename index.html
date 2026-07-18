@@ -67,7 +67,7 @@
         
         <div id="success_body"  style="font-family:Arial">
             
-            <h2>Congratulations. You removed the HEX!</h2>
+            <h2>Congratulations. You broke the HEX!</h2>
             <h3>Welcome to USDA Tech:</h3>
 
             <p>
@@ -81,7 +81,7 @@
 
                     <form id="contact" method="POST" netlify> <!-- Netlify form -->
                         <p>
-                            <label><b>Your Name:</b> </label>
+                            <label><b>Your Name:</b></label>
                             <input type="text" name="name" required>
                         </p>
                         <p>
@@ -94,11 +94,9 @@
                                 <option value="option" disabled>Select an option</option>
                                 <option value="Data & AI">Data & AI</option>
                                 <option value="Cybersecurity">Cybersecurity</option>
-                                <option value="Software engineering">Software engineering</option>
-                                <option value="Cloud computing">Cloud computing</option>
-                                <option value="IT budget">IT budget</option>
-                                <option value="Acquisition">Acquisition</option>
-                                <option value="Policy">Policy</option>
+                                <option value="Software Engineering">Software Engineering</option>
+                                <option value="Cloud Computing">Cloud Computing</option>
+                                <option value="IT Budget, Acquisition, and Policy">IT Budget, Acquisition, and Policy</option>
                             </select>
                         </p>
 
@@ -117,7 +115,7 @@
     </div>
 
     <script>
-        const x50617373776F7264 = String.fromCharCode(0x55, 0x53, 0x44, 0x41, 0x54, 0x45, 0x43, 0x48); // each char in 'USDATECH' spliced in HEX form
+        const x50617373776F7264 = String.fromCharCode(0x55, 0x53, 0x44, 0x41, 0x54, 0x45, 0x43, 0x48);
 
         function password_check() {
             const password_input = document.getElementById("password_input").value;
@@ -139,7 +137,7 @@
         }
 
         function homepage() {
-            // Password homepage
+            // Password homepage (1st page)
             document.getElementById("attempt").style.display = "block"; // Password attempt page appears
             document.getElementById("success_header").style.display = "none"; // Success page (2nd page) doesn't appear
             document.getElementById("success_body").style.display = "none"; 
