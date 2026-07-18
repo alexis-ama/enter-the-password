@@ -1,6 +1,6 @@
 # Enter the Password
 Enter the password to unlock a USDA Tech recruiting website
-[Link to site](https://enter-the-password.netlify.app/)
+([Link to site](https://enter-the-password.netlify.app/))
 
 ## Description
 “Enter the Password” is a tool that is meant to be used by USDA (U.S. Department of Agriculture) representatives at career fairs and conferences to creatively recruit for entry-level positions. It is designed as a website puzzle that tests the skills of the users who attempt to solve it. When they open the website, the user is welcomed with a password field. They will have to read carefully and think outside the box to figure out the hidden password. Once they enter the password, they are directed to a contact form where they can enter their contact information and preferred tech field and potentially be reached out to with USDA early-career resources in the future. 
@@ -75,4 +75,4 @@ The contact form currently runs under the Netlify base (free) plan which has a l
 * [Password-protected website tutorial](https://www.tutorialspoint.com/article/how-to-password-protect-a-page-using-only-html-css-and-javascript)
 
 ## Author
-I’m Alexis Ama, a student at the University of Maryland, and I completed this project as part of a microinternship for USDA. I worked under the supervision of Fredy Diaz, the USDA Deputy Chief Data & AI Officer.
+I’m [Alexis Ama](https://www.linkedin.com/in/alexis-ama/), a student at the University of Maryland, and I completed this project as part of a microinternship for USDA. I worked under the supervision of Fredy Diaz, the USDA Deputy Chief Data & AI Officer.
